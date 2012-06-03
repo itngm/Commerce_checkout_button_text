@@ -1,0 +1,6 @@
+<?php
+function commerce_checkout_button_text_commerce_checkout_page_info_alter(&$pages) {
+  if(!empty($pages['review'])) {
+    $pages['review']['submit_value'] = t('Buy & submit payment');
+  }
+}

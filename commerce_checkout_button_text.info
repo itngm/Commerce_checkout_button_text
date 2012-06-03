@@ -1,0 +1,3 @@
+name = Commerce Checkout Button Text
+description = Configures the text of the checkout button on the review pane.
+core = 7.x
